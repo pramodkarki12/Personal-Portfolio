@@ -1,23 +1,23 @@
 .skills-main-div {
   display: flex;
+  margin: 40px 0 40px 0;
 }
 
 .skills-header {
   font-size: 60px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   text-align: center;
 }
 
 .skills-text {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .skills-text-div {
-  margin-left: 50px;
   margin-top: 3%;
-  padding-top: 80px;
-  font-family: "Google Sans Regular";
+  margin-left: 50px;
+  font-family: 'Google Sans Regular';
 }
 
 .skills-main-div > * {
@@ -26,7 +26,7 @@
 }
 
 .skills-image-div > * {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin-top: 100px;
 }
@@ -36,7 +36,7 @@
   font-weight: 400;
   text-align: center;
   padding-bottom: 10px;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
 }
 
 /* Media Query */

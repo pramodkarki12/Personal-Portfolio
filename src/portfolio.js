@@ -1,18 +1,17 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: 'UA-174238252-2',
 };
 
 //Home Page
 const greeting = {
   title: 'Hello 👋.',
-  title2: 'Harikrushn',
-  logo_name: 'harry.k()',
-  nickname: 'harry / picleric',
-  full_name: 'Harikrushn Kanani',
-  subTitle: 'Full Stack Developer, Open Source Enthusiast 🔥. Always learning.',
+  title2: 'Pramod Karki',
+  logo_name: 'pramodkarki',
+  nickname: 'pramod / ',
+  full_name: 'Pramod Karki',
+  subTitle:
+    'Full Stack MERN Developer, AI/ML Enthusiast 🔥 Always learning.',
   resumeLink:
     'https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing',
   mail: 'mailto:hkanani191@gmail.com',
@@ -32,14 +31,14 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Full Stack MERN Development',
       fileName: 'FullStackImg',
       skills: [
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications',
-        '⚡ Building responsive website front end using ReactJS',
-        '⚡ Developing mobile applications using Flutter and Android',
-        '⚡ Creating application backend in Node, Express & Flask',
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean',
+        '⚡ Develop highly interactive UI for your web and mobile applications',
+        '⚡ Building responsive website front end using ReactJS and NextJS',
+        '⚡ Developing mobile applications using React Native and Android',
+        '⚡ Creating application backend in Node, Express & Django',
+        '⚡ Integration of third party services such as Firebase and AWS',
       ],
       softwareSkills: [
         {
@@ -62,13 +61,6 @@ const skills = {
           style: {
             backgroundColor: '#FFFFFF',
             color: '#F7DF1E',
-          },
-        },
-        {
-          skillName: 'PHP',
-          fontAwesomeClassname: 'simple-icons:php',
-          style: {
-            color: '#7377AD',
           },
         },
         {
@@ -99,13 +91,6 @@ const skills = {
             color: '#439743',
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
           skillName: 'Android',
           fontAwesomeClassname: 'simple-icons:android',
@@ -121,27 +106,6 @@ const skills = {
           },
         },
         {
-          skillName: 'Flutter',
-          fontAwesomeClassname: 'simple-icons:flutter',
-          style: {
-            color: '#02569B',
-          },
-        },
-        {
-          skillName: 'Dart',
-          fontAwesomeClassname: 'simple-icons:dart',
-          style: {
-            color: '#29B0EE',
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
-        {
           skillName: 'MySQL',
           fontAwesomeClassname: 'simple-icons:mysql',
           style: {
@@ -156,20 +120,6 @@ const skills = {
           },
         },
         {
-          skillName: 'Wordpress',
-          fontAwesomeClassname: 'simple-icons:wordpress',
-          style: {
-            color: '#207297',
-          },
-        },
-        {
-          skillName: 'Apache',
-          fontAwesomeClassname: 'simple-icons:apache',
-          style: {
-            color: '#CA1A22',
-          },
-        },
-        {
           skillName: 'Git',
           fontAwesomeClassname: 'simple-icons:git',
           style: {
@@ -177,14 +127,7 @@ const skills = {
           },
         },
         {
-          skillName: 'C',
-          fontAwesomeClassname: 'simple-icons:c',
-          style: {
-            color: '#E94E32',
-          },
-        },
-        {
-          skillName: 'C++',
+          skillName: 'C/C++',
           fontAwesomeClassname: 'simple-icons:cplusplus',
           style: {
             color: '#E94E32',
@@ -199,6 +142,49 @@ const skills = {
         },
       ],
     },
+
+    {
+      title: 'Data Science & AI',
+      fileName: 'DataScienceImg',
+      skills: [
+        '⚡ Developing highly scalable production ready models using ML/DL Algorithms',
+        '⚡ Experience of working with Computer Vision and NLP projects',
+        '⚡ Complex quantitative modelling for dynamic forecasting and time series analysis',
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Tensorflow',
+          fontAwesomeClassname: 'logos-tensorflow',
+          style: {
+            backgroundColor: 'transparent',
+          },
+        },
+        {
+          skillName: 'Keras',
+          fontAwesomeClassname: 'simple-icons:keras',
+          style: {
+            backgroundColor: 'white',
+            color: '#D00000',
+          },
+        },
+        {
+          skillName: 'PyTorch',
+          fontAwesomeClassname: 'logos-pytorch',
+          style: {
+            backgroundColor: 'transparent',
+          },
+        },
+        {
+          skillName: 'Python',
+          fontAwesomeClassname: 'ion-logo-python',
+          style: {
+            backgroundColor: 'transparent',
+            color: '#3776AB',
+          },
+        },
+      ],
+    },
+
     {
       title: 'Cloud Infra-Architecture',
       fileName: 'CloudInfraImg',
@@ -266,13 +252,46 @@ const skills = {
         },
       ],
     },
+
+    {
+      title: 'UI/UX Design',
+      fileName: 'DesignImg',
+      skills: [
+        '⚡ Designing highly attractive user interface for mobile and web applications',
+        '⚡ Customizing logo designs and building logos from scratch',
+        '⚡ Creating the flow of application functionalities to optimize user experience',
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Adobe XD',
+          fontAwesomeClassname: 'simple-icons:adobexd',
+          style: {
+            color: '#FF2BC2',
+          },
+        },
+        {
+          skillName: 'Figma',
+          fontAwesomeClassname: 'simple-icons:figma',
+          style: {
+            color: '#F24E1E',
+          },
+        },
+        {
+          skillName: 'Adobe Illustrator',
+          fontAwesomeClassname: 'simple-icons:adobeillustrator',
+          style: {
+            color: '#FF7C00',
+          },
+        },
+      ],
+    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: 'Shantilal Shah Engineering College',
+      title: 'Herald College',
       subtitle: 'Bachelor in Information Technology',
       logo_path: 'ssec.png',
       alt_name: 'SSEC',

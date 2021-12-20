@@ -1,18 +1,22 @@
-import React from "react";
-import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skills } from "../../portfolio";
-import { Fade } from "react-reveal";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-// import DesignImg from "./DesignImg";
+import React from 'react';
+import './Skills.css';
+import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill';
+import { skills } from '../../portfolio';
+import { Fade } from 'react-reveal';
+import FullStackImg from './FullStackImg';
+import CloudInfraImg from './CloudInfraImg';
+import DesignImg from './DesignImg';
+import DataScienceImg from './DataScienceImg';
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
+  if (props.fileName === 'FullStackImg')
     return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
+  else if (props.fileName === 'CloudInfraImg')
     return <CloudInfraImg theme={props.theme} />;
-  // return <DesignImg theme={props.theme} />;
+  else if (props.fileName === 'DataScienceImg')
+    return <DataScienceImg theme={props.theme} />;
+  else if (props.fileName === 'DesignImg')
+    return <DesignImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
@@ -22,16 +26,16 @@ function SkillSection(props) {
       {skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div">
+            <div className='skills-main-div'>
               <Fade left duration={2000}>
-                <div className="skills-image-div">
+                <div className='skills-image-div'>
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 
-              <div className="skills-text-div">
+              <div className='skills-text-div'>
                 <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
+                  <h1 className='skills-heading' style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
@@ -43,7 +47,7 @@ function SkillSection(props) {
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
-                          className="subTitle skills-text"
+                          className='subTitle skills-text'
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}
@@ -57,10 +61,10 @@ function SkillSection(props) {
           );
         } else {
           return (
-            <div className="skills-main-div">
-              <div className="skills-text-div">
+            <div className='skills-main-div'>
+              <div className='skills-text-div'>
                 <Fade left duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
+                  <h1 className='skills-heading' style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
@@ -72,7 +76,7 @@ function SkillSection(props) {
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
-                          className="subTitle skills-text"
+                          className='subTitle skills-text'
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}
@@ -83,7 +87,7 @@ function SkillSection(props) {
                 </Fade>
               </div>
               <Fade right duration={2000}>
-                <div className="skills-image-div">
+                <div className='skills-image-div'>
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>

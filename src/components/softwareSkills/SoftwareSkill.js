@@ -1,29 +1,30 @@
-import React from "react";
-import "./SoftwareSkill.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import React from 'react';
+import './SoftwareSkill.css';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 function SoftwareSkill(props) {
+  console.log(props);
   return (
     <div>
-      <div className="software-skills-main-div">
-        <ul className="dev-icons">
+      <div className='software-skills-main-div'>
+        <ul className='dev-icons'>
           {props.logos.map((logo) => {
             return (
               <OverlayTrigger
                 key={logo.skillName}
-                placement={"top"}
+                placement={'top'}
                 overlay={
                   <Tooltip id={`tooltip-top`}>
                     <strong>{logo.skillName}</strong>
                   </Tooltip>
                 }
               >
-                <li className="software-skill-inline" name={logo.skillName}>
+                <li className='software-skill-inline' name={logo.skillName}>
                   <span
-                    className="iconify"
+                    className='iconify'
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
-                    data-inline="false"
+                    data-inline='false'
                   ></span>
                 </li>
               </OverlayTrigger>
