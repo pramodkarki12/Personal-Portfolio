@@ -1,6 +1,5 @@
-// Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: true,
 };
 
 //Home Page
@@ -10,21 +9,18 @@ const greeting = {
   logo_name: 'pramodkarki',
   nickname: 'pramod / ',
   full_name: 'Pramod Karki',
-  subTitle: 'Full Stack MERN Developer, AI/ML Enthusiast 🔥 Always learning.',
+  subTitle: 'Full Stack MERN Developer, AI/ML Enthusiast 🔥 Always love learning.',
   resumeLink:
-    'https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing',
-  mail: 'mailto:hkanani191@gmail.com',
+    'https://docs.google.com/document/d/1lr2f9x35Wubs5My-uQllFfH2JqoTZjmLwAFOycJhHMw/edit?usp=sharing',
+  mail: 'pramodkarki491@gmail.com',
 };
 
+/* Social Media Link */
 const socialMediaLinks = {
-  /* Your Social Media Link */
-  github: 'https://github.com/harikanani',
-  linkedin: 'https://www.linkedin.com/in/harikrushn-kanani/',
-  gmail: 'hkanani191@gmail.com',
-  gitlab: 'https://gitlab.com/harikanani',
-  facebook: 'https://www.facebook.com/harikrishan.kanani/',
-  twitter: 'https://twitter.com/Harikrushn9',
-  instagram: 'https://www.instagram.com/hari_kanani_/',
+  github: 'https://github.com/pramodkarki12',
+  linkedin: 'https://www.linkedin.com/in/pramod-karki-31439a205/',
+  gmail: 'pramodkarki491@gmail.com',
+  facebook: 'https://www.facebook.com/pramod.karki.77920/',
 };
 
 const skills = {
@@ -319,72 +315,7 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: 'M0001: MongoDB Basics',
-      subtitle: 'MongoDB University',
-      logo_path: 'mongo.png',
-      certificate_link:
-        'https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing',
-      alt_name: 'MongoDB University',
-      // color_code: "#2AAFED",
-      color_code: '#47A048',
-    },
-    {
-      title: 'Hackathon',
-      subtitle: 'Hack The Mountains',
-      logo_path: 'hackathon1.svg',
-      certificate_link:
-        'https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing',
-      alt_name: 'hackathon',
-      color_code: '#E2405F',
-    },
-    {
-      title: 'A300: Atlas Security',
-      subtitle: 'MongoDB University',
-      logo_path: 'mongo.png',
-      certificate_link:
-        'https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing',
-      alt_name: 'MongoDB University',
-      color_code: '#47A048',
-    },
-    {
-      title: 'Cyber Security & Cyber Forensics',
-      subtitle: 'Workshop at IIT Bombay',
-      logo_path: 'iit.png',
-      certificate_link:
-        'https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing',
-      alt_name: 'Workshop',
-      color_code: '#2AAFED',
-    },
-    {
-      title: 'MLH Local Hack Day: Build',
-      subtitle: 'Major League Hacking',
-      logo_path: 'mlh-logo.svg',
-      certificate_link:
-        'https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing',
-      alt_name: 'Google',
-      color_code: '#fe0037',
-    },
-    {
-      title: 'Hack20',
-      subtitle: 'Flutter International Hackathon',
-      logo_path: 'flutter.png',
-      certificate_link:
-        'https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing',
-      alt_name: 'Flutter International Hackathon',
-      color_code: '#2AAFED',
-    },
-    {
-      title: 'Postman Student Expert',
-      subtitle: 'Postman',
-      logo_path: 'postman.png',
-      certificate_link:
-        'https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g',
-      alt_name: 'Postman',
-      color_code: '#fffbf3',
-    },
-  ],
+  certifications: [],
 };
 
 // Experience Page
@@ -437,7 +368,7 @@ const experience = {
 const projectsHeader = {
   title: 'Projects',
   description:
-    'My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.',
+    'My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, MERN Project and Android Projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.',
   avatar_image_path: 'projects_image.svg',
 };
 
@@ -445,7 +376,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: 'Contact Me',
-    profile_image_path: 'harikrushn.jpg',
+    profile_image_path: 'my_pic.jpg',
     description:
       'You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ',
   },
@@ -462,23 +393,64 @@ const projects = {
   data: [
     {
       id: '0',
-      name: 'AutomateInstaPyBot',
-      url: 'https://github.com/harikanani/AutomateInstaPyBot',
+      name: 'FastFeedback',
+      url: 'https://github.com/pramodkarki12/FastFeedback',
       description:
-        'This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo',
+        'This ongoing project helps to analyzing feedback for your sites. You can easily add user reviews, feedback, and comments to your website in one line of code.',
       languages: [
         {
-          name: 'Python',
-          iconifyClass: 'logos-python',
+          name: 'HTML5',
+          iconifyClass: 'vscode-icons:file-type-html',
+        },
+        {
+          name: 'CSS3',
+          iconifyClass: 'vscode-icons:file-type-css',
+        },
+        {
+          name: 'React',
+          iconifyClass: 'logos-react',
+        },
+        {
+          name: 'Firebase',
+          iconifyClass: 'logos-firebase',
+        },
+        {
+          name: 'Stripe',
+          iconifyClass: 'logos-stripe',
         },
       ],
     },
     {
       id: '1',
-      name: 'react-twitter-clone',
-      url: 'https://github.com/harikanani/react-twitter-clone',
+      name: 'Online Cinema Booking System',
+      url: 'https://github.com/dibas-np/OnlineCinemaBookingSystem',
       description:
-        'A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.',
+        'This collaborative/team project was initially made for the FuseMachine AI Shikshya Certification Programe. This website provides the user to book seats, view the trending and ongoing movies, and also can make a payment through this website.',
+      languages: [
+        {
+          name: 'HTML5',
+          iconifyClass: 'vscode-icons:file-type-html',
+        },
+        {
+          name: 'CSS3',
+          iconifyClass: 'vscode-icons:file-type-css',
+        },
+        {
+          name: 'Django',
+          iconifyClass: 'logos-django',
+        },
+        {
+          name: 'MySQL',
+          iconifyClass: 'simple-icons:mysql',
+        },
+      ],
+    },
+    {
+      id: '2',
+      name: 'Support Management System',
+      url: 'https://support-management-system.web.app',
+      description:
+        'A simple CMS website implemented in React and MaterialUI during my internship. This system is used to keep track of the employees.',
       languages: [
         {
           name: 'HTML5',
@@ -499,28 +471,11 @@ const projects = {
       ],
     },
     {
-      id: '2',
-      name: 'node-blockchain',
-      url: 'https://github.com/harikanani/node-blockchain',
-      description:
-        'A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).',
-      languages: [
-        {
-          name: 'NodeJS',
-          iconifyClass: 'logos-nodejs',
-        },
-        {
-          name: 'TypeScript',
-          iconifyClass: 'logos-typescript',
-        },
-      ],
-    },
-    {
       id: '3',
-      name: 'top-crypto-gainers',
-      url: 'https://github.com/harikanani/top-crypto-gainers',
+      name: 'Consultancy Agency Website',
+      url: 'https://github.com/pramodkarki12/Business-Consultant-Agency-Website',
       description:
-        'A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.',
+        'A simple demo website for consultany agency during my internship program in M&R Solution.',
       languages: [
         {
           name: 'HTML5',
@@ -538,239 +493,69 @@ const projects = {
           name: 'ReactJS',
           iconifyClass: 'logos-react',
         },
-      ],
-    },
-    {
-      id: '4',
-      name: 'personal-portfolio',
-      url: 'https://github.com/harikanani/personal-portfolio',
-      description:
-        'A simple command line interface based quiz app to know more about me :).',
-      languages: [
         {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'NodeJS',
-          iconifyClass: 'logos-nodejs',
-        },
-      ],
-    },
-    {
-      id: '3',
-      name: 'node_express_crud_api_starter',
-      url: 'https://github.com/harikanani/node_express_crud_api_starter',
-      description: 'Simple NodeJS Express CRUD Operations API starter.',
-      languages: [
-        {
-          name: 'NodeJS',
-          iconifyClass: 'logos-nodejs',
+          name: 'Firebase',
+          iconifyClass: 'logos-firebase',
         },
       ],
     },
     {
       id: '4',
-      name: 'node-web-scrapper',
-      url: 'https://github.com/harikanani/node-web-scrapper',
+      name: 'Android WhatsApp Clone',
+      url: 'https://github.com/pramodkarki12/Android_WhatsApp_Clone_App',
       description:
-        'A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.',
+        'An simple android application of showing the features of whatsapp, built using Java and Android Studio (for learning purpose).',
       languages: [
         {
-          name: 'HTML5',
-          iconifyClass: 'vscode-icons:file-type-html',
+          name: 'Java',
+          iconifyClass: 'logos-java',
         },
         {
-          name: 'CSS3',
-          iconifyClass: 'vscode-icons:file-type-css',
-        },
-        {
-          name: 'NodeJs',
-          iconifyClass: 'logos-nodejs',
+          name: 'Android Studio',
+          iconifyClass: 'logos-android',
         },
       ],
     },
+
     {
       id: '5',
-      name: 'harikanani.github.io',
-      url: 'https://github.com/harikanani/harikanani.github.io',
+      name: 'Conduit Blogging App',
+      url: 'https://github.com/pramodkarki12/Conduit',
       description:
-        'A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.',
+        'A simple blogging app built using kotlin on Android Studio, similar that to Medium application.',
       languages: [
         {
-          name: 'HTML5',
-          iconifyClass: 'vscode-icons:file-type-html',
+          name: 'Java',
+          iconifyClass: 'logos-java',
         },
         {
-          name: 'CSS3',
-          iconifyClass: 'vscode-icons:file-type-css',
+          name: 'Kotlin',
+          iconifyClass: 'logos-kotlin',
         },
         {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'SCSS',
-          iconifyClass: 'vscode-icons:file-type-scss2',
+          name: 'Android Studio',
+          iconifyClass: 'logos-android',
         },
       ],
     },
     {
       id: '6',
-      name: 'Automate Attendace',
-      url: 'https://github.com/harikanani/Node_Python',
-      description: 'Automation of Online Attendance using node js and python',
-      languages: [
-        {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'Python',
-          iconifyClass: 'logos-python',
-        },
-      ],
-    },
-    {
-      id: '7',
-      name: 'Automate Discord Bot',
-      url: 'https://github.com/harikanani/AutomateDiscordBot',
+      name: 'NodeJS Authentication System Starter Kit',
+      url: 'https://github.com/pramodkarki12/Authentication-App-System',
       description:
-        'A Discord Bot to send Automatic messages to serer channel in regular time difference.',
+        'Simple NodeJS Express CRUD Operations API starter kit for authenticating user singup and login with error handling, jwt token, schema validation, email confirmation, etc.',
       languages: [
         {
-          name: 'Python',
-          iconifyClass: 'logos-python',
+          name: 'NodeJS',
+          iconifyClass: 'logos-nodejs',
         },
         {
-          name: 'Python Selenium',
-          iconifyClass: 'logos-selenium',
+          name: 'MongoDB',
+          iconifyClass: 'logos-mongodb',
         },
         {
-          name: 'Chromium Browser',
-          iconifyClass: 'openmoji-chromium',
-        },
-      ],
-    },
-    {
-      id: '8',
-      name: 'Flask Blog',
-      url: 'https://github.com/harikanani/flask_blog',
-      description: 'A Simple Blog Web Application made using Flask Framework',
-      languages: [
-        {
-          name: 'Python',
-          iconifyClass: 'logos-python',
-        },
-        {
-          name: 'Flask',
-          iconifyClass: 'cib-flask',
-        },
-        {
-          name: 'HTML5',
-          iconifyClass: 'vscode-icons:file-type-html',
-        },
-        {
-          name: 'CSS3',
-          iconifyClass: 'vscode-icons:file-type-css',
-        },
-      ],
-    },
-    {
-      id: '9',
-      name: 'Netflix top series',
-      url: 'https://github.com/harikanani/netflix-top-series',
-      description: 'List of Top Netflix Series which is deployed to vercel.',
-      languages: [
-        {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'ReactJS',
-          iconifyClass: 'logos-react',
-        },
-        {
-          name: 'HTML5',
-          iconifyClass: 'logos-html-5',
-        },
-        {
-          name: 'CSS3',
-          iconifyClass: 'logos-css-3',
-        },
-      ],
-    },
-    {
-      id: '10',
-      name: 'COVID-19 Tracker',
-      url: 'https://github.com/harikanani/Covid19TrackerReact',
-      description:
-        'Simple Covid-19 Tracker made using React and deployed to Vercel.',
-      languages: [
-        {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'ReactJS',
-          iconifyClass: 'logos-react',
-        },
-        {
-          name: 'HTML5',
-          iconifyClass: 'logos-html-5',
-        },
-        {
-          name: 'CSS3',
-          iconifyClass: 'logos-css-3',
-        },
-      ],
-    },
-    {
-      id: '11',
-      name: 'Food Order Static Website',
-      url: 'https://github.com/harikanani/food-order-website',
-      description:
-        'A simple static website related to food restaurants service. this is reasponsive as well.',
-      languages: [
-        {
-          name: 'HTML5',
-          iconifyClass: 'logos-html-5',
-        },
-        {
-          name: 'CSS3',
-          iconifyClass: 'logos-css-3',
-        },
-        {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'PHP',
-          iconifyClass: 'logos-php',
-        },
-      ],
-    },
-    {
-      id: '12',
-      name: 'NFT Launchpad',
-      url: 'https://deliquescent-cents.000webhostapp.com/',
-      description: 'NFT Launchpad crypto site portfolio',
-      languages: [
-        {
-          name: 'HTML5',
-          iconifyClass: 'logos-html-5',
-        },
-        {
-          name: 'CSS3',
-          iconifyClass: 'logos-css-3',
-        },
-        {
-          name: 'JavaScript',
-          iconifyClass: 'logos-javascript',
-        },
-        {
-          name: 'ReactJS',
-          iconifyClass: 'logos-react',
+          name: 'Postman',
+          iconifyClass: 'logos-postman',
         },
       ],
     },
